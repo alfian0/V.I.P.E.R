@@ -5,7 +5,7 @@ iOS Boot Camp
     `ruby scripts/generator.rb -m "SignUp" -t ./templates -w TooDoApp/TooDoApp/Modules -u TooDoApp/TooDoAppTests/Modules -a "<Your name>"`
 2. Import generated file to project
 3. Add Modules.swift path to Module
-    `case .SignUp:` --
+    `case .SignUp:` ---
       `return "/Modules/SignUp"`
 4. Add module to AppRouter.swift
     `Module.SignUp.routePath : {(appRouter: IAppRouter) in SignUpModule(appRouter: appRouter)}`
