@@ -45,7 +45,6 @@ class LoginPresenter : ILoginPresenter {
     
     func didLogin(user: User) {
         wireframe.showListScreen()
-        
     }
     
     func failedToLogin(error: NSError?) {
