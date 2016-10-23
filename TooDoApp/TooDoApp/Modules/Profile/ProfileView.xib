@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ProfileView" customModule="TooDoApp" customModuleProvider="target">
+            <connections>
+                <outlet property="loginButton" destination="Zho-hC-m1n" id="zVx-t4-fUJ"/>
+                <outlet property="signUpButton" destination="dQ0-BE-DPL" id="Fcf-aC-qmw"/>
+                <outlet property="view" destination="iN0-l3-epB" id="GFl-R0-MhR"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zho-hC-m1n">
+                    <rect key="frame" x="281" y="111" width="38" height="30"/>
+                    <state key="normal" title="Login"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dQ0-BE-DPL">
+                    <rect key="frame" x="273" y="157" width="55" height="30"/>
+                    <state key="normal" title="Sign Up"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="Zho-hC-m1n" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="topMargin" constant="103" id="Nsg-Lj-3Tf"/>
+                <constraint firstItem="dQ0-BE-DPL" firstAttribute="top" secondItem="Zho-hC-m1n" secondAttribute="bottom" constant="16" id="Uer-QA-Be8"/>
+                <constraint firstItem="Zho-hC-m1n" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerXWithinMargins" id="qNk-Uc-YiU"/>
+                <constraint firstItem="dQ0-BE-DPL" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerXWithinMargins" id="ui4-Ui-iKD"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+        </view>
+    </objects>
+</document>

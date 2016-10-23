@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ToDoListView" customModule="TooDoApp" customModuleProvider="target">
+            <connections>
+                <outlet property="tableView" destination="OyG-Qa-jnY" id="ZHQ-h6-on6"/>
+                <outlet property="view" destination="iN0-l3-epB" id="GFl-R0-MhR"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="OyG-Qa-jnY">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="fyf-Bu-Eb6"/>
+                        <outlet property="delegate" destination="-1" id="eVz-xp-Vde"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="OyG-Qa-jnY" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" id="FDW-gY-Dcb"/>
+                <constraint firstItem="OyG-Qa-jnY" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" id="SYH-U2-VKb"/>
+                <constraint firstItem="OyG-Qa-jnY" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerXWithinMargins" id="npm-lJ-M6X"/>
+                <constraint firstItem="OyG-Qa-jnY" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerYWithinMargins" id="vDD-Dg-qXe"/>
+            </constraints>
+        </view>
+    </objects>
+</document>
