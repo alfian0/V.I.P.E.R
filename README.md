@@ -40,7 +40,7 @@ iOS Boot Camp
     `func showErrorMessage(message: String)`
 10. Add service on Interactor
 
-    `let service:ITodoService
+    `let service:ITodoService`
     
     `init(service:ITodoService){`
     
