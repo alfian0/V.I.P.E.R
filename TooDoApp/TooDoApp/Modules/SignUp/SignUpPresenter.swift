@@ -45,7 +45,7 @@ class SignUpPresenter : ISignUpPresenter {
         }
         
         view.showLoading()
-        interactor.signUp(enteredEmail, password: enteredPassword)
+        interactor.signUp(enteredEmail, password: enteredPassword, confirmPassword: confirmPassword!)
     }
     
     func didSignUp(user: User) {

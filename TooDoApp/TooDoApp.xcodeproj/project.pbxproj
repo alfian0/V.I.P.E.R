@@ -8,6 +8,42 @@
 
 /* Begin PBXBuildFile section */
 		5398CEC0DD080982B92F8572 /* Pods_TooDoAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD3EE076E08F62115424733D /* Pods_TooDoAppTests.framework */; };
+		800AD8511DBE69180029E695 /* SignUpPresenterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800AD8501DBE69180029E695 /* SignUpPresenterTest.swift */; };
+		800AD8531DBE69760029E695 /* SignUpViewMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800AD8521DBE69760029E695 /* SignUpViewMock.swift */; };
+		800AD8551DBE69990029E695 /* SignUpWireFrameMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800AD8541DBE69990029E695 /* SignUpWireFrameMock.swift */; };
+		800AD8571DBE69B10029E695 /* SignUpInteractorMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800AD8561DBE69B10029E695 /* SignUpInteractorMock.swift */; };
+		808771AF1DBE6D9A00D88724 /* SignUpAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D8F4F11DBCE61F008E056A /* SignUpAssembly.swift */; };
+		808771B01DBE6D9A00D88724 /* SignUpInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D8F4F21DBCE61F008E056A /* SignUpInteractor.swift */; };
+		808771B11DBE6D9A00D88724 /* SignUpModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D8F4F31DBCE61F008E056A /* SignUpModule.swift */; };
+		808771B21DBE6D9A00D88724 /* SignUpPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D8F4F41DBCE61F008E056A /* SignUpPresenter.swift */; };
+		808771B31DBE6D9A00D88724 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D8F4F51DBCE61F008E056A /* SignUpView.swift */; };
+		808771B41DBE6D9A00D88724 /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D8F4F61DBCE61F008E056A /* SignUpViewModel.swift */; };
+		808771B51DBE6D9A00D88724 /* SignUpWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D8F4F71DBCE61F008E056A /* SignUpWireFrame.swift */; };
+		808771B61DBE6D9A00D88724 /* SignUpView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80D8F4FF1DBCE9E8008E056A /* SignUpView.xib */; };
+		808771B71DBE6D9B00D88724 /* SignUpAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D8F4F11DBCE61F008E056A /* SignUpAssembly.swift */; };
+		808771B81DBE6D9B00D88724 /* SignUpInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D8F4F21DBCE61F008E056A /* SignUpInteractor.swift */; };
+		808771B91DBE6D9B00D88724 /* SignUpModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D8F4F31DBCE61F008E056A /* SignUpModule.swift */; };
+		808771BA1DBE6D9B00D88724 /* SignUpPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D8F4F41DBCE61F008E056A /* SignUpPresenter.swift */; };
+		808771BB1DBE6D9B00D88724 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D8F4F51DBCE61F008E056A /* SignUpView.swift */; };
+		808771BC1DBE6D9B00D88724 /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D8F4F61DBCE61F008E056A /* SignUpViewModel.swift */; };
+		808771BD1DBE6D9B00D88724 /* SignUpWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D8F4F71DBCE61F008E056A /* SignUpWireFrame.swift */; };
+		808771BE1DBE6D9B00D88724 /* SignUpView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80D8F4FF1DBCE9E8008E056A /* SignUpView.xib */; };
+		808771BF1DBE6ED900D88724 /* LoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 847985A21DAFBC7A008501BE /* LoginView.xib */; };
+		808771C01DBE6ED900D88724 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847985A01DAFBC34008501BE /* LoginViewModel.swift */; };
+		808771C11DBE6ED900D88724 /* LoginAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847985941DAFBBB4008501BE /* LoginAssembly.swift */; };
+		808771C21DBE6ED900D88724 /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847985951DAFBBB4008501BE /* LoginInteractor.swift */; };
+		808771C31DBE6ED900D88724 /* LoginModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847985961DAFBBB4008501BE /* LoginModule.swift */; };
+		808771C41DBE6ED900D88724 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847985971DAFBBB4008501BE /* LoginPresenter.swift */; };
+		808771C51DBE6ED900D88724 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847985981DAFBBB4008501BE /* LoginView.swift */; };
+		808771C61DBE6ED900D88724 /* LoginWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847985991DAFBBB4008501BE /* LoginWireFrame.swift */; };
+		808771C71DBE6EDB00D88724 /* LoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 847985A21DAFBC7A008501BE /* LoginView.xib */; };
+		808771C81DBE6EDB00D88724 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847985A01DAFBC34008501BE /* LoginViewModel.swift */; };
+		808771C91DBE6EDB00D88724 /* LoginAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847985941DAFBBB4008501BE /* LoginAssembly.swift */; };
+		808771CA1DBE6EDB00D88724 /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847985951DAFBBB4008501BE /* LoginInteractor.swift */; };
+		808771CB1DBE6EDB00D88724 /* LoginModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847985961DAFBBB4008501BE /* LoginModule.swift */; };
+		808771CC1DBE6EDB00D88724 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847985971DAFBBB4008501BE /* LoginPresenter.swift */; };
+		808771CD1DBE6EDB00D88724 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847985981DAFBBB4008501BE /* LoginView.swift */; };
+		808771CE1DBE6EDB00D88724 /* LoginWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847985991DAFBBB4008501BE /* LoginWireFrame.swift */; };
 		80D8F4F81DBCE61F008E056A /* SignUpAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D8F4F11DBCE61F008E056A /* SignUpAssembly.swift */; };
 		80D8F4F91DBCE61F008E056A /* SignUpInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D8F4F21DBCE61F008E056A /* SignUpInteractor.swift */; };
 		80D8F4FA1DBCE61F008E056A /* SignUpModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D8F4F31DBCE61F008E056A /* SignUpModule.swift */; };
@@ -182,6 +218,10 @@
 		255815167472506DB9F71446 /* Pods-TooDoAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TooDoAppUITests.release.xcconfig"; path = "../Pods/Target Support Files/Pods-TooDoAppUITests/Pods-TooDoAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		415B30A5448B9AF389B867E7 /* Pods-TooDoAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TooDoAppUITests.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-TooDoAppUITests/Pods-TooDoAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		687C97B8EACAE66894765A4D /* Pods-TooDoAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TooDoAppTests.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-TooDoAppTests/Pods-TooDoAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		800AD8501DBE69180029E695 /* SignUpPresenterTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpPresenterTest.swift; sourceTree = "<group>"; };
+		800AD8521DBE69760029E695 /* SignUpViewMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewMock.swift; sourceTree = "<group>"; };
+		800AD8541DBE69990029E695 /* SignUpWireFrameMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpWireFrameMock.swift; sourceTree = "<group>"; };
+		800AD8561DBE69B10029E695 /* SignUpInteractorMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpInteractorMock.swift; sourceTree = "<group>"; };
 		80D8F4F11DBCE61F008E056A /* SignUpAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpAssembly.swift; sourceTree = "<group>"; };
 		80D8F4F21DBCE61F008E056A /* SignUpInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpInteractor.swift; sourceTree = "<group>"; };
 		80D8F4F31DBCE61F008E056A /* SignUpModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpModule.swift; sourceTree = "<group>"; };
@@ -301,6 +341,25 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		800AD84E1DBE68F90029E695 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				800AD84F1DBE68F90029E695 /* Mocks */,
+				800AD8501DBE69180029E695 /* SignUpPresenterTest.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		800AD84F1DBE68F90029E695 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				800AD8521DBE69760029E695 /* SignUpViewMock.swift */,
+				800AD8541DBE69990029E695 /* SignUpWireFrameMock.swift */,
+				800AD8561DBE69B10029E695 /* SignUpInteractorMock.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
 		80D8F4F01DBCE61F008E056A /* SignUp */ = {
 			isa = PBXGroup;
 			children = (
@@ -342,6 +401,7 @@
 		849C4CD41DAE0B8E00175EBF /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				800AD84E1DBE68F90029E695 /* SignUp */,
 				849C4CD51DAE0B8E00175EBF /* TodoList */,
 			);
 			path = Modules;
@@ -660,7 +720,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				808771B61DBE6D9A00D88724 /* SignUpView.xib in Resources */,
 				84CC7C911D951E4900533283 /* ToDoListView.xib in Resources */,
+				808771BF1DBE6ED900D88724 /* LoginView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -668,7 +730,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				808771BE1DBE6D9B00D88724 /* SignUpView.xib in Resources */,
 				84CC7C921D951E4900533283 /* ToDoListView.xib in Resources */,
+				808771C71DBE6EDB00D88724 /* LoginView.xib in Resources */,
 				8479855D1DAF45F3008501BE /* registration_response.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -878,45 +942,63 @@
 			files = (
 				84CC7CBB1D98F75200533283 /* AppDelegate.swift in Sources */,
 				84CC7C971D98F6EE00533283 /* EditTodoModule.swift in Sources */,
+				800AD8511DBE69180029E695 /* SignUpPresenterTest.swift in Sources */,
 				84CC7CA11D98F70300533283 /* CreateTodoAssembly.swift in Sources */,
 				84CC7C601D9510BA00533283 /* AppRouter.swift in Sources */,
 				849C4CD21DAE086000175EBF /* ProfileWireFrame.swift in Sources */,
 				84CC7C6D1D95121600533283 /* Modules.swift in Sources */,
 				849C4CD81DAE0BDD00175EBF /* ToDoListPresenterTest.swift in Sources */,
+				808771B01DBE6D9A00D88724 /* SignUpInteractor.swift in Sources */,
 				849C4CD01DAE085D00175EBF /* ProfileViewModel.swift in Sources */,
 				84CC7CB31D98F73300533283 /* TodoItem.swift in Sources */,
+				800AD8551DBE69990029E695 /* SignUpWireFrameMock.swift in Sources */,
 				84CC7CA91D98F71200533283 /* CreateTodoView.swift in Sources */,
 				849C4CC81DAE084F00175EBF /* ProfileInterceptor.swift in Sources */,
 				84CC7CA31D98F70700533283 /* CreateTodoInterceptor.swift in Sources */,
+				808771B51DBE6D9A00D88724 /* SignUpWireFrame.swift in Sources */,
 				84CC7C3F1D95069100533283 /* TooDoAppTests.swift in Sources */,
 				849C4CC61DAE084C00175EBF /* ProfileAssembly.swift in Sources */,
+				800AD8571DBE69B10029E695 /* SignUpInteractorMock.swift in Sources */,
+				808771B21DBE6D9A00D88724 /* SignUpPresenter.swift in Sources */,
+				808771C01DBE6ED900D88724 /* LoginViewModel.swift in Sources */,
 				84CC7CB51D98F73700533283 /* User.swift in Sources */,
 				849C4CDC1DAE0D8F00175EBF /* ToDoListWireframeMock.swift in Sources */,
 				84CC7C931D98F6E600533283 /* EditTodoAssembly.swift in Sources */,
+				808771C41DBE6ED900D88724 /* LoginPresenter.swift in Sources */,
 				84CC7C631D9510BA00533283 /* IAppRouter.swift in Sources */,
 				84CC7C991D98F6F300533283 /* EditTodoPresenter.swift in Sources */,
+				808771C31DBE6ED900D88724 /* LoginModule.swift in Sources */,
 				84CC7CA51D98F70A00533283 /* CreateTodoModule.swift in Sources */,
 				84CC7C871D951A8800533283 /* ToDoListView.swift in Sources */,
+				800AD8531DBE69760029E695 /* SignUpViewMock.swift in Sources */,
 				84CC7C9F1D98F6FF00533283 /* EditTodoWireFrame.swift in Sources */,
 				84CC7CB11D98F72F00533283 /* APIError.swift in Sources */,
 				84CC7CB91D98F74D00533283 /* UIViewControllerExtensions.swift in Sources */,
+				808771C21DBE6ED900D88724 /* LoginInteractor.swift in Sources */,
 				849C4CCA1DAE085300175EBF /* ProfileModule.swift in Sources */,
 				84CC7C8A1D951A8800533283 /* ToDoListViewModel.swift in Sources */,
 				849C4CDE1DAE0E5300175EBF /* ToDoListInterceptorMock.swift in Sources */,
+				808771C61DBE6ED900D88724 /* LoginWireFrame.swift in Sources */,
 				84CC7C8D1D951A8800533283 /* ToDoListWireFrame.swift in Sources */,
+				808771B31DBE6D9A00D88724 /* SignUpView.swift in Sources */,
 				84CC7C9B1D98F6F700533283 /* EditTodoView.swift in Sources */,
 				84CC7C711D95134C00533283 /* CommonAssembly.swift in Sources */,
+				808771C51DBE6ED900D88724 /* LoginView.swift in Sources */,
 				84CC7C951D98F6EA00533283 /* EditTodoInterceptor.swift in Sources */,
 				849C4CDA1DAE0CB700175EBF /* ToDoListViewMock.swift in Sources */,
 				84CC7C811D951A8800533283 /* ToDoListInterceptor.swift in Sources */,
+				808771B41DBE6D9A00D88724 /* SignUpViewModel.swift in Sources */,
 				84CC7CAF1D98F72100533283 /* ToDoListAssembly.swift in Sources */,
 				84CC7CB71D98F74100533283 /* TodoService.swift in Sources */,
 				849C4CCE1DAE085A00175EBF /* ProfileView.swift in Sources */,
 				84CC7C9D1D98F6FB00533283 /* EditTodoViewModel.swift in Sources */,
+				808771AF1DBE6D9A00D88724 /* SignUpAssembly.swift in Sources */,
 				84CC7CAB1D98F71600533283 /* CreateTodoViewModel.swift in Sources */,
+				808771C11DBE6ED900D88724 /* LoginAssembly.swift in Sources */,
 				84CC7C841D951A8800533283 /* ToDoListPresenter.swift in Sources */,
 				849C4CCC1DAE085600175EBF /* ProfilePresenter.swift in Sources */,
 				84CC7C691D95118900533283 /* IModule.swift in Sources */,
+				808771B11DBE6D9A00D88724 /* SignUpModule.swift in Sources */,
 				84CC7CA71D98F70E00533283 /* CreateTodoPresenter.swift in Sources */,
 				84CC7CAD1D98F71900533283 /* CreateTodoWireFrame.swift in Sources */,
 				84CC7C771D95141B00533283 /* ToDoListModule.swift in Sources */,
@@ -935,23 +1017,28 @@
 				84CC7C6E1D95121600533283 /* Modules.swift in Sources */,
 				849C4CD11DAE085E00175EBF /* ProfileViewModel.swift in Sources */,
 				84CC7CB41D98F73300533283 /* TodoItem.swift in Sources */,
+				808771CC1DBE6EDB00D88724 /* LoginPresenter.swift in Sources */,
 				84CC7CAA1D98F71200533283 /* CreateTodoView.swift in Sources */,
 				849C4CC91DAE085000175EBF /* ProfileInterceptor.swift in Sources */,
 				84CC7CA41D98F70700533283 /* CreateTodoInterceptor.swift in Sources */,
 				84CC7C4A1D95069100533283 /* TooDoAppUITests.swift in Sources */,
+				808771C91DBE6EDB00D88724 /* LoginAssembly.swift in Sources */,
 				849C4CC71DAE084C00175EBF /* ProfileAssembly.swift in Sources */,
 				84CC7CB61D98F73700533283 /* User.swift in Sources */,
 				84CC7C941D98F6E700533283 /* EditTodoAssembly.swift in Sources */,
 				84CC7C641D9510BA00533283 /* IAppRouter.swift in Sources */,
+				808771BB1DBE6D9B00D88724 /* SignUpView.swift in Sources */,
 				84CC7C9A1D98F6F300533283 /* EditTodoPresenter.swift in Sources */,
 				84CC7CA61D98F70B00533283 /* CreateTodoModule.swift in Sources */,
 				84CC7C881D951A8800533283 /* ToDoListView.swift in Sources */,
+				808771C81DBE6EDB00D88724 /* LoginViewModel.swift in Sources */,
 				84CC7CA01D98F70000533283 /* EditTodoWireFrame.swift in Sources */,
 				84CC7CB21D98F73000533283 /* APIError.swift in Sources */,
 				84CC7CBA1D98F74E00533283 /* UIViewControllerExtensions.swift in Sources */,
 				849C4CCB1DAE085400175EBF /* ProfileModule.swift in Sources */,
 				84CC7C8B1D951A8800533283 /* ToDoListViewModel.swift in Sources */,
 				84CC7C8E1D951A8800533283 /* ToDoListWireFrame.swift in Sources */,
+				808771CA1DBE6EDB00D88724 /* LoginInteractor.swift in Sources */,
 				84CC7C9C1D98F6F800533283 /* EditTodoView.swift in Sources */,
 				84CC7C721D95134C00533283 /* CommonAssembly.swift in Sources */,
 				84CC7C961D98F6EB00533283 /* EditTodoInterceptor.swift in Sources */,
@@ -961,12 +1048,21 @@
 				849C4CCF1DAE085A00175EBF /* ProfileView.swift in Sources */,
 				84CC7C9E1D98F6FC00533283 /* EditTodoViewModel.swift in Sources */,
 				84CC7CAC1D98F71600533283 /* CreateTodoViewModel.swift in Sources */,
+				808771B91DBE6D9B00D88724 /* SignUpModule.swift in Sources */,
+				808771CE1DBE6EDB00D88724 /* LoginWireFrame.swift in Sources */,
+				808771BC1DBE6D9B00D88724 /* SignUpViewModel.swift in Sources */,
 				84CC7C851D951A8800533283 /* ToDoListPresenter.swift in Sources */,
+				808771B71DBE6D9B00D88724 /* SignUpAssembly.swift in Sources */,
 				849C4CCD1DAE085700175EBF /* ProfilePresenter.swift in Sources */,
 				84CC7C6A1D95118900533283 /* IModule.swift in Sources */,
 				84CC7CA81D98F70F00533283 /* CreateTodoPresenter.swift in Sources */,
 				84CC7CAE1D98F71A00533283 /* CreateTodoWireFrame.swift in Sources */,
+				808771B81DBE6D9B00D88724 /* SignUpInteractor.swift in Sources */,
+				808771CB1DBE6EDB00D88724 /* LoginModule.swift in Sources */,
+				808771BA1DBE6D9B00D88724 /* SignUpPresenter.swift in Sources */,
+				808771CD1DBE6EDB00D88724 /* LoginView.swift in Sources */,
 				84CC7C781D95141B00533283 /* ToDoListModule.swift in Sources */,
+				808771BD1DBE6D9B00D88724 /* SignUpWireFrame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

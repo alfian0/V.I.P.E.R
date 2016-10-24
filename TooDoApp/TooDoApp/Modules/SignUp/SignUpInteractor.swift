@@ -8,7 +8,7 @@
 
 protocol ISignUpInteractor: class {
     weak var presenter: ISignUpPresenter? { get set }
-    func signUp(email: String, password: String)
+    func signUp(email: String, password: String, confirmPassword: String)
 }
 
 class SignUpInteractor : ISignUpInteractor{
@@ -20,7 +20,7 @@ class SignUpInteractor : ISignUpInteractor{
         self.service = service
     }
     
-    func signUp(email: String, password: String) {
+    func signUp(email: String, password: String, confirmPassword: String) {
         service.signUpWithEmail(email, password: password, success: {[weak self] (response) in
             guard let user = response?.user else {
                 self?.presenter?.failedToSignUp(response?.error?.nsError)

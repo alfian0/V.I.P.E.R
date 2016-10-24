@@ -14,7 +14,6 @@ import Nimble
 @testable import TooDoApp
 
 class ToDoListPresenterTest: QuickSpec {
-
     override func spec() {
         var viewModel:ToDoListViewModel!
         let viewMock = ToDoListViewMock()
@@ -29,7 +28,6 @@ class ToDoListPresenterTest: QuickSpec {
             interceptorMock.resetMock()
             presenter = ToDoListPresenter(view: viewMock, viewModel: viewModel, wireframe: wireFrameMock, interceptor: interceptorMock)
             interceptorMock.presenter = presenter
-            
         }
         
         // do initial setup
@@ -52,7 +50,6 @@ class ToDoListPresenterTest: QuickSpec {
                 expect(interceptorMock.invocations).to(contain("getTodos()"))
                 
                 expect(viewModel.todos?.count) == 2
-                
             }
             
             it("refresh Button should refresh list of Todos from Interceptor") {
@@ -66,7 +63,6 @@ class ToDoListPresenterTest: QuickSpec {
                 expect(interceptorMock.invocations).to(contain("getTodos()"))
                 
                 expect(viewModel.todos?.count) == 2
-                
             }
 
             it("deleteItemAtIndex should delete Todos iterm from Interceptor") {
@@ -85,7 +81,6 @@ class ToDoListPresenterTest: QuickSpec {
                 
                 expect(viewModel.todos?.count) == 2
                 expect(viewModel.todos?[1].identifier) == "id2"
-                
             }
 
             it("deleteItemAtIndex should show error if the index is not correct") {
@@ -100,7 +95,6 @@ class ToDoListPresenterTest: QuickSpec {
                 
                 
                 expect(viewModel.todos?.count) == 2
-                
             }
 
             
@@ -116,11 +110,7 @@ class ToDoListPresenterTest: QuickSpec {
                 
                 
                 expect(viewModel.todos?.count) == 2
-                
             }
-
-            
-
         }
         
         describe("Presenter Navigation Actions") {
@@ -139,7 +129,6 @@ class ToDoListPresenterTest: QuickSpec {
                 expect(wireFrameMock.invocations.count) == 1
                 expect(wireFrameMock.invocations).to(contain("presentEditModule(id2)"))
             }
-
         }
 
         describe("Presenter Handle Interceptor failures") {
@@ -163,7 +152,6 @@ class ToDoListPresenterTest: QuickSpec {
                 expect(interceptorMock.invocations.count) == 1
                 expect(interceptorMock.invocations).to(contain("getTodos()"))
             }
-            
         }
         
         describe("Presenter Handling view data calls") {
@@ -180,10 +168,6 @@ class ToDoListPresenterTest: QuickSpec {
                 
                 expect(presenter.todoItemDescriptionAtIndex(1)) == "Item 2"
             }
-            
         }
-        
-        
     }
-
 }
