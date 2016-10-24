@@ -47,3 +47,13 @@ iOS Boot Camp
        `self.service = service`
        
     `}`
+
+
+
+
+
+# Step to create Unit Test
+
+1. Make sure All file `Target Membership` can accessed by <#AppName>Test and <#AppName>UITest
+2. Create Mock, Make sure pod already have MockFive installed
+3. Make all presenter test case
