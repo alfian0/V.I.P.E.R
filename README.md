@@ -25,7 +25,7 @@ iOS Boot Camp
 
     ```Swift
     let wireframe = appRouter.resolver.resolve(ISignUpWireFrame.self, argument:appRouter)!
-    wireframe.present(SignUpViewModel())
+        wireframe.present(SignUpViewModel())
     ```
     
 6. Add some protocol needed, example: we want show SignUp screen  and show List of todo after SignUp
